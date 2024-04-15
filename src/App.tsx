@@ -1,4 +1,4 @@
-import Message from "./Message"
+import ListGroup from "./components/ListGroup"
 
 
 function App() {
@@ -6,7 +6,7 @@ function App() {
 
   return (
     <div>
-      <Message/>
+      <ListGroup />
     </div>
   )
 
