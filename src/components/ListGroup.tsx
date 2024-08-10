@@ -9,18 +9,13 @@ import { useState } from "react";
 function ListGroup({ items, heading }: Props) {
 
     const [selectedIndex, setSelectedIndex] = useState(-1)
-
     //items = []
-
     // if (items.length === 0)
     //     return (<>
     //         <h1>LIST</h1>
     //         <p>No item found</p>
-
     //     </>)
-
     //const handelClick = (event:MouseEvent) => console.log(event)
-
     return (
         <>
             <h1>{heading}</h1>
